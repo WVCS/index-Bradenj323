@@ -1,3 +1,36 @@
-body {
-
+h1 {
+ 
+    font-size:90 px;
+text-align:center;
+   font-family: "Papyrus", "Courier New", monospace;
+  <
 }
+
+body {
+  background:#BACDB0;
+}
+img {
+  width: 15%;
+  height: auto;
+  img-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size:50 px;
+  text-align:center;
+}
+img:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+} 
