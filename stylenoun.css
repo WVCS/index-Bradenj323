@@ -1,0 +1,74 @@
+.navtest{
+  font-size:25px;
+  vertical-align: baseline;
+}
+.title{
+  text-align:center;
+  font-size:50px;
+  font-family:Lucida Handwriting;
+}
+.truth{
+  text-align:center;
+  font-size:30px;
+}
+
+
+body {
+  background:#02C3BD;
+}
+
+.volleyballclipart{
+  width: 115%;
+  height: auto;
+  img-align:center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   transform: rotate(-20deg);
+}
+
+.liberosave {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transform: rotate(20deg)
+}
+table, th, td {
+  border: solid;
+    border-collapse:collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  width:500px;
+  height:400px;}
+tr:nth-child(even) {
+  background-color: #D7D6D6;
+}
+
+.spikegif {
+ width: 100%;
+  height: auto;
+  transform: rotate(-20deg);
+}
+.rotationstitle {
+   text-align:center;
+  font-size:40px
+}
+.navtest{
+  list-style-type:none;
+  position fixed;
+  background-color:lightgrey;
+  width: 100%;
+  left: 0;
+  top;0
+  font-size:30px;
+}
+li {
+  display: inline;
+}
+
+.rotations {
+  column-width:
+}
