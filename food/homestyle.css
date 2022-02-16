@@ -1,0 +1,39 @@
+body {
+  margin: 40px;
+  background-color:#f5eace;
+}
+
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 800px 800px 100px;
+  grid-gap: 10px;
+  background-color: #f5eace;
+  color: #444;
+  justify-items: center;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+img {
+  width:700px
+}
+
+
+.menulink {
+  font-size:50px;
+  font-family:Brush Script MT;
+}
+img {
+  width:700px;
+}
+
+.OrderLink {
+  font-size:45px;
+}
