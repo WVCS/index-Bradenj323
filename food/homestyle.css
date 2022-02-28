@@ -8,16 +8,15 @@ li {
   display: inline;
 }
 
-.logoimage {
-  width:10px;
-}
-
 body {
   margin: 40px;
   background-color:#f5eace;
 }
 
-
+.logoimage {
+ max-width: 10%;  
+height: auto; 
+}
 
 .wrapper {
   display: grid;
@@ -35,7 +34,7 @@ body {
   padding: 20px;
   font-size: 150%;
 }
-img {
+ {
   width:700px
 }
 
@@ -45,10 +44,16 @@ img {
   font-family:Brush Script MT;
 }
 
-img {
+#pizzaimage{
   width:700px;
 }
 
 .OrderLink {
   font-size:45px;
+}
+
+.box a{
+  max-width: 10% ;  
+height: auto; 
+  
 }
