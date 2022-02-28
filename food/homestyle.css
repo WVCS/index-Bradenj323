@@ -1,4 +1,12 @@
-  <link rel="stylesheet" href="homestyle.css">
+.navtest{
+  font-size:25px;
+  vertical-align: baseline;
+  background-color:lightgrey;
+}
+
+li {
+  display: inline;
+}
 
 body {
   margin: 40px;
