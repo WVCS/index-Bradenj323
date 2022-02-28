@@ -13,9 +13,8 @@ body {
   background-color:#f5eace;
 }
 
-.logoimage {
- max-width: 10%;  
-height: auto; 
+#logoimage {
+ width:100px;
 }
 
 .wrapper {
