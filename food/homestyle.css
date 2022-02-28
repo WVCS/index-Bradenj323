@@ -8,6 +8,10 @@ li {
   display: inline;
 }
 
+.logoimage {
+  width:70px;
+}
+
 body {
   margin: 40px;
   background-color:#f5eace;
