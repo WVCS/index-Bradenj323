@@ -1,0 +1,60 @@
+.navtest{
+width:100vw;
+  background-color:lightblue;
+  height:5vh;
+  display: flex;
+  font-size:4vh 4vw;
+}
+
+li {
+  display: inline;
+}
+
+body {
+  background-color:lightgrey;
+}
+
+#logoimage {
+ width:10%;
+}
+h2 {
+color:lightblue;
+}
+
+.infolink {
+  font-size:15vh;
+  font-family:Marlett;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 150vh 150vh;
+  grid-gap: 5vw;
+  background-color: lightgrey;
+  color: #444;
+  justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 2vw;
+  padding: 10vh;
+  font-size: 150%;
+  font-family:Marlett;
+}
+
+#planimage{
+  width:30vw;
+}
