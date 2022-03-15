@@ -3,7 +3,7 @@ width:100vw;
   background-color:lightblue;
   height:5vh;
   display: flex;
-  font-size:4vh 4vw;
+  font-size:110%;
 }
 
 li {
@@ -15,14 +15,14 @@ body {
 }
 
 #logoimage {
- width:10%;
+ width:7%;
 }
 h2 {
 color:lightblue;
 }
 
 .infolink {
-  font-size:15vh;
+  font-size:10vh;
   font-family:Marlett;
 }
 
