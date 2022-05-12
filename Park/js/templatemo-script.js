@@ -6,31 +6,7 @@
 
 $(document).ready(function () {
 
-    /*************** Gallery ******************/
-    
-    var itemSelector = ".tm-gallery-item"; 
-    var responsiveIsotope = [ [480, 4], [720, 6] ];
-    var itemsPerPageDefault = 8;
-    var itemsPerPage = defineItemsPerPage();
-    var currentNumberPages = 1;
-    var currentPage = 1;
-    var currentFilter = '*';
-    var filterValue = "";
-    var pageAttribute = 'data-page';
-    var pagerClass = 'isotope-pager';    
-    var $container = $('.tm-gallery-container').isotope({ 
-        itemSelector: itemSelector
-    });
-
-    function adjustGalleryLayout(currentPopup) {
-        if(currentPopup == 'gallery') {
-            // layout Isotope after each image loads
-            $container.imagesLoaded().progress( function() {
-                $container.isotope('layout');
-            });
-        }  
-    }
-
+  
     /************** Popup *****************/   
 
     $('#inline-popups').magnificPopup({
